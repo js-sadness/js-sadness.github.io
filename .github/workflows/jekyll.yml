@@ -12,6 +12,10 @@ jobs:
 
     steps:
     - uses: actions/checkout@v1
+
+    - name: Setup imprint file
+    - run: echo ${{ secrets.LEGALNOTICE }} > ./imprint.md
+
     - name: Build the site in the jekyll/builder container
       run: |
         docker run \
