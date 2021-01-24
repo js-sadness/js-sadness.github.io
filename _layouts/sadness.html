@@ -1,0 +1,14 @@
+---
+layout: default
+---
+<main class="sadness">
+  <h1 class="title">Sadness: {{ page.title | markdownify | remove: '<p>' | remove: '</p>' }}</h1>
+
+  <summary>
+    <div class="description">{{ page.description | markdownify }}</div>
+    {% include tagged-categories.html %}
+    {% include status.html %}
+  </summary>
+
+  {{ content }}
+</main>

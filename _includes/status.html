@@ -1,0 +1,7 @@
+<div class="status">
+  {% if page.resolved %}
+    <span class="resolved">Not a problem anymore since {{ page.resolved | markdownify }}</span>
+  {% else %}
+    <span class="not resolved">It's still a problem in {{ site.js-version | markdownify | remove: '<p>' | remove: '</p>' }}</span>
+  {% endif %}
+</div>

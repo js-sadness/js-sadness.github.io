@@ -1,0 +1,44 @@
+---
+layout: page
+title: Overview
+---
+
+<h2>Introduction</h2>
+
+<p>
+  <b>This website is currently work-in-progress!</b> <br><br>
+  
+  These are things in JavaScript which make us sad. 
+  Inspired by <a href="http://phpsadness.com" target="_blank">PHP Sadness</a>,
+  we aim to archive all the ugly JavaScript warts.
+  <br>
+
+  If you want to contribute sadnesses, start a pull request on our 
+  <a href="https://github.com/js-sadness/js-sadness.github.io" target="_blank">github repository</a>.
+  <br>
+  <br>
+  
+  JavaScript is an old, but living and evolving language. 
+  As a consequence, it is possible that some sadnesses are going to be resolved over time.
+  <br>
+
+  If you want to notify us that a certain sadness has been resolved, start an issue at our 
+  <a href="https://github.com/js-sadness/js-sadness.github.io" target="_blank">github repository</a>.
+
+</p>
+
+<h2>Categories</h2>
+
+{% for category in site.categories %}
+  <p><a href="{{ category.url }}">{{ category.title }}</a></p>
+{% endfor %}
+
+
+<h2>Top Sadnesses</h2>
+
+{% for sadness in site.sadnesses %}
+  {% include sadness-preview.html %}
+{% endfor %}
+
+<br><br><center>Made with 💧 in Germany - <a id="imprint" alt="Imprint" href="{{ site.baseurl }}/impressum.html">Imprint</a></center>
+
