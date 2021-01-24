@@ -46,6 +46,7 @@ sass:
 
 gems:
   - jekyll-seo-tag
+  - jekyll-environment-variables
 #  - jekyll-target-blank
 
 # plugins:
