@@ -1,0 +1,52 @@
+# IMPORTANT: You need to restart your local jekyll if you make changes to this file.
+
+name:               "JS Sadness"
+description:        "There are things in JS that make us sad"
+baseurl:            "" # empty for root domain
+
+# TODO: jekyll-seo-tag, see: http://www.rubydoc.info/gems/jekyll-seo-tag/1.2.0
+
+js-version:         "[ES10 (ES2019)](https://www.ecma-international.org/ecma-262/10.0/index.html)"
+
+# Content and Structure
+nav:
+  - name:           "Overview"
+    href:           "/"
+
+collections:
+  sadnesses:
+    output:         true
+
+  categories:
+    output:         true
+
+defaults:
+  -
+    scope:
+      path:         ""
+      type:         "sadnesses"
+    values:
+      layout:       "sadness"
+  -
+    scope:
+      path:         ""
+      type:         "categories"
+    values:
+      layout:       "category"
+
+
+# Compilation Settings
+permalink:          pretty # remove .html extension from URLs
+
+markdown:           kramdown
+coderay_default_lang: javascript
+
+sass:
+  style:            :compressed
+
+gems:
+  - jekyll-seo-tag
+#  - jekyll-target-blank
+
+# plugins:
+#  - jekyll-target-blank # this will add target=_blank to all external links (links to other domains than ourself)

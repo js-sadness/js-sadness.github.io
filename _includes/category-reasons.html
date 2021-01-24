@@ -1,0 +1,7 @@
+<!-- Add the generic reason for each category of this sadness -->
+{% for category in site.categories %}
+{% if category.why-bad and page.categories contains category.slug %}
+<!-- do not indent these lines because inside markup they would be converted to HTML code literals -->
+<p><a href="{{ category.url }}">{{ category.title }}</a>: {{ category.why-bad }}</p>
+{% endif %}
+{% endfor %}

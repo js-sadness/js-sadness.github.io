@@ -1,0 +1,7 @@
+<div class="categories">
+  {% for category in site.categories %}
+    {% if page.categories contains category.slug %}
+      <a href="{{ category.url }}">{{ category.title }}</a>{% unless forloop.last %}, {% endunless %}
+    {% endif %}
+  {% endfor %}
+</div>
