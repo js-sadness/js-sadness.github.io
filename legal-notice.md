@@ -9,7 +9,7 @@ robots: noindex
 
 ## Angaben gemäß § 5 TMG  
   
-<div class"legalnotice">{% gist 1e2c60f5d6033ff05f59548d6cb56fca %}</div>
+<div class="legalnotice">{% gist 1e2c60f5d6033ff05f59548d6cb56fca %}</div>
 
 ### Haftung für Inhalte
 
