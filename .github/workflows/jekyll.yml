@@ -1,8 +1,6 @@
 name: Jekyll site CI
 
 on:
-  push:
-    branches: [ master ]
   pull_request:
     branches:
     - master
@@ -14,9 +12,6 @@ jobs:
 
     steps:
     - uses: actions/checkout@v1
-
-    # - name: Setup legal notice file
-    #   run: echo ${{ secrets.LEGALNOTICE }} > ./legal-notice.md
 
     - name: Build the site in the jekyll/builder container
       run: |
