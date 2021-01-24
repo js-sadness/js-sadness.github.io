@@ -3,7 +3,7 @@ layout: sadness
 title: "0 is a number, not a Number"
 description: "Each primitive type also has an additional class with that name"
 resolved: false
-# published: false
+published: false
 
 categories: 
     - "typing"
