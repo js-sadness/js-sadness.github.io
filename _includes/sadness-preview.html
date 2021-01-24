@@ -1,0 +1,12 @@
+<!-- Previews a sadness, linking it and providing additional information -->
+<div class="sadness-preview">
+
+  <!-- main sadness header -->
+  <a class="title" href="{{ sadness.url }}">{{ sadness.title | markdownify }}</a>
+  
+  <!-- short textual description -->
+  <div class="description">{{ sadness.description | markdownify }}</div>
+
+  {% include tagged-categories.html %}
+  {% include status.html %}
+</div>
