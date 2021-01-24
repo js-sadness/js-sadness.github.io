@@ -3,7 +3,7 @@ layout: sadness
 title: "`instanceof` disagrees with `typeof`"
 description: "`typeof null === 'object'`, but `null instanceof Object === 'false'`"
 resolved: false
-# published: false
+published: false
 
 categories: 
     - "typing"

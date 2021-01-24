@@ -7,6 +7,8 @@ description: "Cookies should be an array getter and setter, not a String contain
 categories: 
     - "strings"
     - "browser"
+    
+published: false
 ---
 
 ## The Facts
