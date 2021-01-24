@@ -12,8 +12,6 @@ Gemfile.lock
 ### NPM ###
 /node_modules/
 
-# :)
-
 ### Atom ###
 .ftpconfig
 .sftpconfig
