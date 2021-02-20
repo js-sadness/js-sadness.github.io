@@ -16,6 +16,25 @@ body
   margin: 0 auto
   padding-bottom: 1.2rem
 
+.teardrops
+  position: fixed
+  width: 500%
+  height: 500%
+  top: -100%
+  left: -100%
+  z-index: -1
+  background-image: url("images/site/tear.svg")
+  background-repeat: repeat
+  background-size: 30px 30px
+  transform: rotate(40deg)
+  animation: teardrops 8s linear infinite
+
+@keyframes teardrops
+  0% 
+    background-position: 0px 0px  
+  100% 
+    background-position: 30px 30px
+
 main
   padding: 0 1em
 
