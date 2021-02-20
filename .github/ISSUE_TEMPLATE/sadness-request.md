@@ -6,19 +6,22 @@ labels: 'sadness request, discussion'
 assignees: ''
 
 ---
-<!-- Please fill any  -->
 
 **Title**
-<!-- The title the sadness should have -->
+<!-- The title the Sadness should have -->
 
 **The Facts**
-<!-- A clear and concise description of what the problem is. -->
+<!-- Tell us a few facts about the upcoming Sadness problem -->
 
 **Why is this a Problem**
-<!-- A clear and concise description of what you want to be changed. -->
+<!-- Elaborate why the facts are a problem and therefore requires a place in JS-Sadness -->
 
 **Current Workarounds**
-<!-- Add any other context or screenshots here. -->
+<!-- Describe how you can get around the described problem -->
 
 **Further Reading**
-<!-- Add any other context or screenshots here. -->
+<!-- Here you can list any links which will help the reader to dig deeper into this problem -->
+
+**Additional Information**
+* resolved:
+* keywords/categories:
